@@ -158,7 +158,7 @@
 
 ul p { font-weight: bold; margin-bottom: 10px; }
 ul a { display: block; font-size: 0.85rem; margin-top: 10px; color: #dddddd; cursor: pointer; }
-/* Language Picker Styling */
+
 .nav-language {
     display: flex;
     align-items: center;
@@ -171,7 +171,7 @@ ul a { display: block; font-size: 0.85rem; margin-top: 10px; color: #dddddd; cur
 }
 
 .nav-language:hover {
-    border: 1px solid white; /* Amazon signature hover effect */
+    border: 1px solid white; 
 }
 
 .flag-icon {
@@ -183,7 +183,7 @@ ul a { display: block; font-size: 0.85rem; margin-top: 10px; color: #dddddd; cur
 .nav-language .nav-text-bottom {
     font-size: 0.85rem;
     font-weight: 700;
-    margin-top: 5px; /* Aligns text with the flag */
+    margin-top: 5px; 
 }
 
 .dropdown-icon {
@@ -192,7 +192,7 @@ ul a { display: block; font-size: 0.85rem; margin-top: 10px; color: #dddddd; cur
     margin-top: 8px;
 }
 
-/* Hide on very small mobile screens to save space */
+
 @media (max-width: 768px) {
     .nav-language {
         display: none;
