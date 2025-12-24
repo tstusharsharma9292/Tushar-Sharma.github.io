@@ -158,6 +158,46 @@
 
 ul p { font-weight: bold; margin-bottom: 10px; }
 ul a { display: block; font-size: 0.85rem; margin-top: 10px; color: #dddddd; cursor: pointer; }
+/* Language Picker Styling */
+.nav-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.nav-language:hover {
+    border: 1px solid white; /* Amazon signature hover effect */
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.nav-language .nav-text-bottom {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 5px; /* Aligns text with the flag */
+}
+
+.dropdown-icon {
+    font-size: 0.5rem;
+    color: #cccccc;
+    margin-top: 8px;
+}
+
+/* Hide on very small mobile screens to save space */
+@media (max-width: 768px) {
+    .nav-language {
+        display: none;
+    }
+}
 
 
 
