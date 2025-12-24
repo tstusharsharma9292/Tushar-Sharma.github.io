@@ -158,3 +158,53 @@
 
 ul p { font-weight: bold; margin-bottom: 10px; }
 ul a { display: block; font-size: 0.85rem; margin-top: 10px; color: #dddddd; cursor: pointer; }
+
+
+
+@media (max-width: 992px) {
+    .nav-search {
+        width: 400px; 
+    }
+    .box {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-search {
+        width: 100%; 
+        order: 3;   
+        margin-top: 10px;
+    }
+
+    .hero-image {
+        height: 300px; 
+    }
+
+    .shop-section {
+        padding: 10px;
+    }
+
+    .box {
+        width: 90%; 
+        height: auto; 
+    }
+
+    .foot-panel2 {
+        flex-direction: column; 
+        height: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foot-panel2 ul {
+        margin-bottom: 20px;
+    }
+}
